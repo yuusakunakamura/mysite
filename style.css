@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 .clearfix::after {
     content: "";
     display: block;
@@ -171,7 +173,6 @@ margin: 0 auto;
 }
 #profile {
   width: 100%;
-  height: 650px;
   background-color: #eceff1;
 }
 .profile-group {
@@ -234,4 +235,86 @@ footer {
 }
 .foot {
   color: #fafafa;
+}
+
+@media screen and (max-width:768px) {
+  .container {
+    width: 100%;
+}
+  .portfolio-group {
+    width: 100%;
+}
+.box{
+  margin:0 auto;
+  width: 300px;
+  float: none;
+}
+.box1{
+  margin:20px auto 0;
+  width: 300px;
+  float: none;
+  padding-top: 20px;
+}
+.box2{
+  margin:20px auto 0;
+  width: 300px;
+  float: none;
+  padding-top: 20px;
+}
+.box3{
+  margin:20px auto 0;
+  width: 300px;
+  float: none;
+}
+.box4{
+  margin:20px auto 0;
+  width: 300px;
+  float: none;
+  padding-top: 20px;
+}
+.box5{
+  margin:20px auto 0;
+  width: 300px;
+  float: none;
+  padding-top: 20px;
+}
+  .nav-item a {
+  color: red;
+}
+.strength-group {
+  width: 100%;
+}
+.strength {
+  text-align: center;
+  width: 100%;
+  float: none;
+}
+.strength1 {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+.strength-text {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.profile-group {
+    width: 100%;
+}
+.left-content {
+  float: none;
+  margin: 0 auto;
+}
+.right-content {
+  float: none;
+  margin: 30px auto 0;
+}
+.profile-title {
+  text-align: center;
+  padding-top:10px;
+}
+.profile-text {
+  padding-top:10px;
+  text-align: center;
+}
 }
